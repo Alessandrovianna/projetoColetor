@@ -1,0 +1,681 @@
+.body-banner {
+   /*background: linear-gradient(-10deg, #39aae1,#333,#2b4c99);
+   background-image:url('../imagens/banner6.jpeg');
+   background-position:center;
+   background-size:cover;
+   height: 700px;*/
+   background-image:url('../imagens/luft.png');
+   background-size:180px;
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-position-x:8px;
+   background-position-y:8px;
+   background-color:rgb(243, 243, 243);
+
+}
+.body-banner-botoes {
+  /*background-image:url('../imagens/banner.jpg');
+  background-position:center;
+  background-size:cover;
+  height: 900px;*/
+  background-color:rgb(243, 243, 243);
+}
+.body-relatorios {
+   /*background-image:url('../imagens/banner6.jpeg');
+   background-position:center;
+   background-size:cover;
+   height: 700px;*/
+   background-image:url('../imagens/luft.png');
+   background-size:180px;
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-position-x:8px;
+   background-position-y:8px;
+   background-color:rgb(243, 243, 243);
+}
+.body-relatorios {
+   /* background-attachment:fixed;*/
+    background-color:rgb(243, 243, 243);
+ }
+  
+ #body-login {
+     background-color:#111F61;
+ }
+.xbra {
+   -webkit-text-stroke-width:0.5px;
+   -webkit-text-stroke-color:#FFF;
+   font-size: 70px;
+   padding:10px;
+   color: #111F61;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:900;
+   text-align:center;
+   letter-spacing:5px;
+}
+ #tela-login {
+     width:300px;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%, -50%);
+     border-radius:10px;
+     padding-bottom:20px;
+     padding-top:20px;
+ } 
+ .dv-btn-entrar {
+     margin:auto;
+     width:71%;
+ }
+ .btn-entrar {
+     width:180px;
+     box-shadow:5px 5px 5px #888888;
+ }
+ .corpo-botoes1{
+    width:310px;
+    margin:auto;
+    margin-top:80px;
+ }
+  .botao-coletor {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    /*display:none;
+    box-shadow:1px 5px 30px #555;*/
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-usuario {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-relatorios {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-todos-coletores {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-coletor:hover,
+ .botao-usuario:hover,
+ .botao-relatorios:hover,
+ .botao-todos-coletores:hover {
+     background-color:#0e4da5;
+  }
+  .botao-coletor:hover,
+  .botao-usuario:hover,
+  .botao-relatorios:hover,
+  .botao-todos-coletores:hover, a  {
+     color: #fff;
+     text-decoration:none;
+  }
+  .corpo-botoes2{
+    width:310px;
+    margin:auto;
+  }
+  .botao-entregar-coletor {
+     background-color:#03bb66;
+     border:none;
+     padding: 15px;
+     font-family:arial;
+     font-weight:bold;
+     font-size:20px;
+     border-radius:10px;
+     padding-top:25px;
+     padding-bottom: 25px;
+     text-align:center;
+     box-shadow:10px 10px 5px #888888;
+  }
+  .botao-devolver-coletor {
+    background-color:#03bb66;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px#888888;
+ }
+  .botao-devolver-coletor:hover,
+  .botao-entregar-coletor:hover {
+    background-color:#2e6a4e;
+ }
+  .corpo-botoes3{
+     width:190px;
+     margin:auto;
+  }
+  .botao-sair {
+     background-color:#002060;
+     border:none;
+     padding: 13px;
+     font-family:arial;
+     font-weight:bold;
+     font-size:20px;
+     border-radius:10px;
+     padding-top:20px;
+     padding-bottom: 20px;
+     text-align:center;
+     margin-top:10px;
+     box-shadow:8px 8px 5px #888888;
+  }
+  .botao-sair:hover {
+    background-color:#0e4da5;
+ }
+ .botao-relatorio-usuarios {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-relatorio-lider{
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-relatorio-area{
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-entrega-devolucao {
+    background-color:#002060;
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .botao-relatorio-usuarios:hover,
+ .botao-relatorio-lider:hover,
+ .botao-relatorio-area:hover,
+ .botao-entrega-devolucao:hover {
+    background-color:#0e4da5;
+ }
+ .form2 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius:10px;
+    background-color:#0e4da5;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-top:20px;
+    box-shadow:10px 10px 5px #888888;
+ }
+ .input-form1 {
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:9px;
+    font-size:16px;
+    font-family:arial;
+    color: #000;
+ }
+ .input-form2 {
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:9px;
+    font-size:16px;
+    font-family:arial;
+    color: #000;
+    width:240px;
+ }
+ .select-area {
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:9px;
+    font-size:16px;
+    font-family:arial;
+    color: #000;
+    width:268px;
+ }
+ .div-btn {
+   margin: auto;
+   width:180px;
+ }
+ .botao-cadastrar-coletor {
+    background-color:rgb(243, 243, 243);
+    border:none;
+    padding: 13px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#000;
+    cursor: pointer;
+    width:180px;
+    
+ }
+ .texto-cadastrar-coletor {
+    font-family:arial;
+    color:#FFF;
+    text-align:center;
+    font-size:18px;
+ 
+ }
+ .texto-cadastrar-usuario {
+    font-family:arial;
+    color:#FFF;
+    text-align:center;
+    font-size:18px;
+ }
+ .select-turno {
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:9px;
+    font-size:16px;
+    font-family:arial;
+    color: #000;
+    width:268px;
+ }
+ .botao-cadastrar-usuario {
+    background-color:rgb(243, 243, 243);
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#000;
+    cursor: pointer;
+    width:180px;
+ }
+ .texto-entregar-coletor {
+    font-family:arial;
+    color:#FFF;
+    text-align:center;
+    font-size:18px;
+ }
+ .botao-confirmar-entrega {
+    background-color:rgb(243,243,243,);
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#000;
+    cursor: pointer;
+    width:180px;
+ }
+ .texto-devolver-coletor {
+    font-family:arial;
+    color:#FFF;
+    text-align:center;
+    font-size:18px;
+ }
+ .select-status {
+    padding:13px;
+    border:none;
+    outline:none;
+    border-radius:9px;
+    font-size:16px;
+    font-family:arial;
+    color: #000;
+    width:268px;
+ }
+ .botao-confirmar-devolucao {
+    background-color:rgb(243,243,243);
+    border:none;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#000;
+    cursor: pointer;
+    width:180px;
+ }
+ .botao-cadastrar-coletor:hover,
+ .botao-cadastrar-usuario:hover,
+ .botao-confirmar-entrega:hover,
+ .botao-confirmar-devolucao:hover {
+    background-color:#ccc ;
+ }
+ .tabela-relatorio-entrega-devolucao {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin:auto;
+    margin-top:20px;
+ }
+ .botao-voltar-relatorios {
+    background-color:#002060;
+    border:none;
+    width:100px;
+    text-align: center;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#FFF;
+    margin: auto;
+    margin-top:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    box-shadow:6px 6px 5px #888888;
+ }
+ .th-relatorio-entrega-devolucao {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin-left:30px;
+    margin-right:10px;
+    background-color:#002060;
+    color:#FFF;
+    font-family:arial;
+ }
+ .td-relatorio-entrega-devolucao {
+    border-radius:5px;
+    border:0.2px solid #002060;
+    text-align: center;
+    font-family:arial;
+ }
+ .botao-voltar-entrega-devolucao {
+    background-color:#002060;
+    border:none;
+    width:100px;
+    text-align: center;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#FFF;
+    margin: auto;
+    margin-top:10px;
+    box-shadow:6px 6px 5px #888888;
+ }
+ .button  {
+    background-color:red;
+    color:#FFF;
+    font-family:arial;
+    border-radius:5px;
+    cursor: pointer;
+    border:0;
+    font-size:13px;
+    padding:3px;
+    font-weight:bold;
+    letter-spacing:0.5px;
+ }
+ .button:hover {
+    background-color:rgb(206, 89, 89);
+ }
+ .td-button {
+    border-radius:5px;
+    border:0.2px solid #002060;
+    text-align: center;
+    font-family:arial;
+    padding-top:3px;
+    padding-bottom:3px;
+ }
+ .tabela-usuarios {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin:auto;
+    margin-top:20px;
+ }
+ .th-usuarios {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin-left:30px;
+    margin-right:10px;
+    background-color:#002060;
+    color:#FFF;
+    font-family:arial;
+ }
+ .td-usuarios {
+    border-radius:5px;
+    border:0.2px solid #002060;
+    text-align: center;
+    font-family:arial;
+ }
+ .div-botoes-voltar {
+    margin: auto;
+    margin-top:10px;
+    width:100px;
+ }
+ .botao-voltar-usuarios {
+    background-color:#002060;
+    border:none;
+    text-align: center;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#FFF;
+    box-shadow:6px 6px 5px #888888;
+ }
+ .tabela-coletores {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin:auto;
+    margin-top:20px;
+ }
+ .th-coletor {
+    border-radius:5px;
+    border:1px solid #002060;
+    text-align: center;
+    margin-left:30px;
+    margin-right:10px;
+    background-color:#002060;
+    color:#FFF;
+    font-family:arial;
+ }
+ .td-coletores {
+    border-radius:5px;
+    border:0.2px solid #002060;
+    text-align: center;
+    font-family:arial;
+    
+ }
+ .botao-voltar-coletores {
+    background-color:#002060;
+    border:none;
+    width:100px;
+    text-align: center;
+    padding: 15px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:10px;
+    color:#FFF;
+    margin: auto;
+    margin-top:10px;
+    box-shadow:6px 6px 5px #888888;
+ }
+ .img-login {
+    margin-left:25px;
+ }
+ .div-form-buscar {
+    margin:auto;
+    width:500px;
+ }
+ .input-buscar {
+    width:400px;
+    border-radius:4px;
+    outline:none;
+    border:none;
+    border:2px solid #002060;
+    padding:4px;
+    font-size:15px;
+ }
+ .botao-input-buscar {
+    background-color:#002060;
+    color:#FFF;
+    border-radius:4px;
+    cursor: pointer;
+    padding:5px;
+    width:80px;
+    font-weight:bold;
+    box-shadow:5px 5px 5px #888888;
+ }
+ .botao-input-buscar:hover {
+    background-color:#1a459b;
+ }
+ .btn1 {
+   border: 2px solid black;
+   background-color: white;
+   color: black;
+   padding: 14px 28px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-decoration: none;
+ }
+ 
+ 
+/*
+ .success {
+   border-color: #4CAF50;
+   color: green;
+ }
+ 
+ .success:hover {
+   background-color: #4CAF50;
+   color: white;
+ }
+ .info {
+   border-color: #2196F3;
+   color: dodgerblue;
+ }
+ .info:hover {
+   background: #2196F3;
+   color: white;
+ }
+ .warning {
+   border-color: #ff9800;
+   color: orange;
+ }
+ 
+ .warning:hover {
+   background: #ff9800;
+   color: white;
+ }
+ .danger {
+   border-color: #f44336;
+   color: red
+ }
+ 
+ .danger:hover {
+   background: #f44336;
+   color: white;
+ }
+
+ @media only screen and (max-width:500px) {
+
+   .corpo-botoes1{
+      width:180px;
+      margin:auto;
+      margin-top:80px;
+   }
+    .botao-coletor {
+      font-size:15px;
+      padding-top:19px;
+      padding-bottom: 19px;
+      
+   }
+   .botao-usuario {
+      font-size:15px;
+      padding-top:19px;
+      padding-bottom: 19px;
+      
+   }
+   .botao-relatorios {
+      font-size:15px;
+      padding-top:19px;
+      padding-bottom: 19px;
+      
+   }
+   .botao-todos-coletores {
+      font-size:15px;
+      padding-top:19px;
+      padding-bottom: 19px;
+      
+   }
+   .body-banner {
+      background-size:140px;
+   }
+ }
