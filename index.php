@@ -37,6 +37,5 @@ require 'config.php';
 
 
 <?php
-//usuario: alessandro.viana senha: 123
 ?>
 
